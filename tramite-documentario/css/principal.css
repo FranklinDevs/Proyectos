@@ -1250,112 +1250,6 @@ footer {
 }
 
 /* ============================================= */
-/* CHATBOT */
-/* ============================================= */
-.chatbot-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-}
-
-.chatbot-float {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  box-shadow: var(--shadow-md);
-  transition: var(--transition);
-  background-color: var(--primary);
-}
-
-.chatbot-float:hover {
-  transform: scale(1.1);
-  box-shadow: var(--shadow-lg);
-}
-
-.chatbot-float img {
-  width: 30px;
-  height: 30px;
-}
-
-.siamsoft-chat-box {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  bottom: 70px;
-  right: 0;
-  width: 300px;
-  height: 400px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: var(--shadow-md);
-  overflow: hidden;
-}
-
-.chat-box-header {
-  background-color: var(--primary);
-  color: white;
-  padding: 15px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.chat-box-body {
-  flex: 1;
-  padding: 15px;
-  overflow-y: auto;
-  background-color: #f5f5f5;
-}
-
-.chat-message {
-  margin-bottom: 10px;
-  padding: 8px 12px;
-  border-radius: 18px;
-  max-width: 80%;
-  word-wrap: break-word;
-}
-
-.siamsoft-chat-box .chat-message {
-  background-color: #e5e5ea;
-  align-self: flex-start;
-  border-bottom-left-radius: 5px;
-}
-
-.siamsoft-chat-box .chat-message.user {
-  background-color: var(--primary);
-  color: white;
-  align-self: flex-end;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 18px;
-}
-
-.siamsoft-chat-box textarea {
-  border: none;
-  border-top: 1px solid #ddd;
-  padding: 10px;
-  resize: none;
-  outline: none;
-  height: 50px;
-}
-
-.siamsoft-chat-box button {
-  background-color: var(--primary);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.siamsoft-chat-box button:hover {
-  background-color: var(--secondary);
-}
-
-/* ============================================= */
 /* MEDIA QUERIES - RESPONSIVE DESIGN */
 /* ============================================= */
 
@@ -1669,11 +1563,6 @@ footer {
     padding: 12px;
   }
 
-  .siamsoft-chat-box {
-    width: 280px;
-    height: 380px;
-    right: -10px;
-  }
 
   /* BARRA SOCIAL EN PANTALLAS MUY PEQUEÑAS */
   .social-bar {
@@ -1716,10 +1605,5 @@ footer {
 
   .testimonio-position {
     font-size: 0.8rem;
-  }
-
-  .siamsoft-chat-box {
-    width: 260px;
-    height: 350px;
   }
 }
